@@ -279,3 +279,52 @@ button {
   height: 100%;
   object-fit: cover;
 }
+
+/* =-= Start Subscribe Section =-= */
+.subscribe {
+  width: 100%;
+  padding: 0 0 128px;
+}
+
+.subscribe__content {
+  padding: 122px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("../images/Rectangle9.png") no-repeat;
+}
+
+.subscribe__title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subscribe__text {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 14px;
+  text-align: center;
+}
+
+.subscribe__form {
+  display: flex;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.subscribe__email {
+  margin-right: 16px;
+}
+
+.subscribe__email-input {
+  width: 700px;
+  padding: 22px 17px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background-color: #fff;
+  height: 64px;
+}
