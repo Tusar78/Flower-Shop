@@ -30,3 +30,10 @@ button {
   font-family: "Merriweather", serif;
   font-size: 1rem;
 }
+
+/* =-= Reuses Code =-= */
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 40px;
+}
