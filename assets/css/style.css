@@ -1,0 +1,32 @@
+/*Added Fonts from fonts.google.com*/
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500&family=Merriweather:wght@700&display=swap");
+
+/* =-= Reset Code =-= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #272727;
+}
+
+input,
+button {
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+}
