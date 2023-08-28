@@ -39,3 +39,8 @@ button {
   margin: 0 40px;
 }
 
+.section {
+  display: flex;
+  justify-content: center;
+}
+
