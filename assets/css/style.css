@@ -148,7 +148,7 @@ button {
   background: rgba(167, 33, 98, 0.15);
 }
 .light--cyan {
-  background: rgba(5, 151, 160, 0.15);;
+  background: rgba(5, 151, 160, 0.15);
 }
 .light--green {
   background: rgba(71, 125, 17, 0.15);
@@ -170,4 +170,39 @@ button {
   font-weight: 700;
   line-height: 35px;
   text-decoration: underline;
+}
+
+/* =-= Start Service Section =-= */
+.service {
+  width: 100%;
+  padding: 0 0 128px;
+}
+
+.service__content {
+  padding: 86px 190px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(214px, 1fr));
+}
+
+.service__item {
+  margin: auto;
+  text-align: center;
+}
+
+.service__icon {
+  width: 88px;
+  height: 88px;
+}
+
+.service__item-text {
+  margin-top: 24px;
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
 }
